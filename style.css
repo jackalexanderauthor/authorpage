@@ -1,15 +1,21 @@
 /* make comments within this syntax */
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Grenze Gotische";
   line-height: 1.6;
   margin: 0;
   padding: 0;
   background-color: #f9f9f9;
-  color: #333333;
+  color: black;
+}
+.menu {
+  max-width: 10%;
+  position: sticky;
+  top: 10px;
+  background-color:#333333
 }
 .container {
-  max-width: 800px;
+  max-width: 60%;
   margin: auto;
   padding: 20px;
   background-color: #ffffff;
@@ -96,23 +102,21 @@ a:hover {
 
 /* styling for header.html */
 .navbar {
-  width: 100%;
-  background-image: url("/img/headshot.jpg");
+  height: 10%;
+  background-color:#333333;
   color: white;
-  padding: 1000px 0px;
-  background-position: center;
-  background-size: contain;
+  padding: 10px 10px;
 }
 .navbar nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 100%;
 }
 .navbar nav a:hover {
   text-decoration: underline;
 }
 .spacer {
-  height: 20px;
+  height: 0px;
 }
     .gallery {
       font-family: sans-serif;
