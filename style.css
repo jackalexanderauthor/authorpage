@@ -1,41 +1,54 @@
 /* make comments within this syntax */
 
+/* pallet
+  #6f523b - dark brown
+  #e3e0cf - cream
+  #995037 - orange
+  #969f8e - grey
+  #977d5d - light brown
+  */
+
 body {
   font-family: "Grenze Gotisch";
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
-  color: black;
-}
-.menu {
-  max-width: 10%;
-  position: sticky;
-  top: 10px;
-  background-color:#333333
+  background-image: url(img/desperate-man.webp);
+  background-position: top center;
+  color: #e3e0cf;
 }
 .container {
-  max-width: 60%;
+  max-width: 62%;
   margin: auto;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #6f523b;
+  border-color: #333333;
 }
 header {
   text-align: center;
   padding-bottom: 20px;
 }
 header img {
-  width: 150px;
-  border-radius: 50%;
+  width: 120%;
+  position: sticky;
+  top: 10px;
+  border-radius: 0%;
+}
+img.sticky {
+  position: sticky;
+  top: 20px;
+  width: 100%;
 }
 h1 {
+  color: #995037;
+  font-size: 60px;
   margin: 10px 0 5px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 h2 {
-  color: #444444;
-  border-bottom: 1px solid #cccccc;
+  color: #995037;
+  border-bottom: 1px solid #995037;
   padding-bottom: 5px;
   margin-top: 30px;
 }
@@ -43,7 +56,7 @@ ul {
   padding-left: 20px;
 }
 a {
-  color: #0077cc;
+  color: #969f8e;
   text-decoration: none;
 }
 a:hover {
@@ -119,7 +132,7 @@ a:hover {
   text-decoration: underline;
 }
 .spacer {
-  height: 0px;
+  height: 10px;
 }
     .gallery {
       font-family: sans-serif;
